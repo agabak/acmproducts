@@ -25,10 +25,26 @@ namespace ACM.BL
             }
         }
 
-        public  string MyProperty
+        public  string FullName
         {
-            get { return LastName + "," +  FirstName; }
+            get {
+
+                string fullName = LastName;
+                if(!string.IsNullOrWhiteSpace(FirstName))
+                {
+                    if (!string.IsNullOrWhiteSpace(fullName))
+                    {
+                        fullName += ", ";
+                    }
+
+                    return fullName += FirstName;
+                } 
+
+                return fullName;
+             }
         }
+
+        public static int InstanceCount { get; set; }
 
     }
 

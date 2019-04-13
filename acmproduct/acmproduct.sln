@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.UI", "ACM.UI\ACM.UI.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acm.Common", "Acm.Common\Acm.Common.csproj", "{46FDC2B3-B13B-4325-A677-9D00ED885DBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BLTest", "ACM.BLTest\ACM.BLTest.csproj", "{E3F4A1A2-604F-46D1-8F5A-2A86EBBE21F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,9 +37,16 @@ Global
 		{46FDC2B3-B13B-4325-A677-9D00ED885DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46FDC2B3-B13B-4325-A677-9D00ED885DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46FDC2B3-B13B-4325-A677-9D00ED885DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F4A1A2-604F-46D1-8F5A-2A86EBBE21F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F4A1A2-604F-46D1-8F5A-2A86EBBE21F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F4A1A2-604F-46D1-8F5A-2A86EBBE21F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F4A1A2-604F-46D1-8F5A-2A86EBBE21F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3F4A1A2-604F-46D1-8F5A-2A86EBBE21F9} = {743DAEA9-BE91-4F7B-BD76-F69A38DDB049}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20B3B37D-D32D-489D-8342-E9DFA368E611}
